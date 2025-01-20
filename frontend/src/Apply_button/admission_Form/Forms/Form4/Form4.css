@@ -1,0 +1,69 @@
+.form4_page{
+  max-width: 80%;
+  margin:0 auto;
+}
+
+.page4_hr{
+    margin-top: -1px;
+}
+.form4_head{
+    margin-top: 10px;
+}
+.check_list{
+    max-width:80%;
+    margin:0 auto;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+.check_list_hrtag{
+    background-color: #353434;
+    height: 1px;
+    margin-top: -1.5px;
+    margin-bottom: -1.5px;
+}
+.closure{
+    max-width: 50%;
+    margin:0 auto;
+}
+.queries {
+    display: flex;
+    max-width:50%;
+    margin:0 auto;
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 10px; /* Spacing between items */
+  }
+
+  .datas {
+    display: flex;
+    flex: 1 0 48%; 
+    align-items: center; 
+    margin-bottom: 10px; 
+  }
+  
+  .datas>label {
+    margin-left: 10px;
+  }
+  .page_nav{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+  .right_nav{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+
+
+
+
+
+
+
+
+
+

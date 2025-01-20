@@ -1,0 +1,150 @@
+.page1heading{
+    margin:30px;
+}
+.page1_hr{
+    margin:-20px;
+}
+.data_fields{
+    width:90%;
+    margin:0 auto;
+    position: static;
+}
+.rowdata{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* gap:50px; */
+    margin-top: 30px;
+
+}
+
+.d1, .d2, .d3, .d4, .citizen_input{
+    flex:1;
+display: flex;
+flex-direction: column;
+}
+
+label {
+    display:block;
+    margin:15px
+}
+.address>h6{
+    margin-left:10px;
+
+}
+input{
+    border-radius: 5px;
+    max-width:400px;
+    margin-left:15px;
+  
+}
+input {
+    padding:5px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px; /* Optional: rounded corners */
+    outline: none; /* Remove the default focus outline */
+}
+
+input:focus {
+      border: 1px solid rgb(240, 70, 70); 
+    border-color: rgb(111, 226, 235); /* Set the border color when focused */
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* Optional: Add a glow effect */
+  }
+.d5_label{
+    display:block !important;
+    margin:15px;
+}
+
+.citizen_input{
+    height:40px;
+    margin-bottom: 10px;
+}
+
+.name_label{
+    display:block !important;
+    margin-top:6px;
+    gap:0px !important;
+}
+.d5{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.d5_label{
+    display:block;
+    margin-top:30px;
+}
+.citizen_input>label{
+    margin:-2px;
+    font-size: small;
+    margin-left: 20px;
+
+}
+.citizenship_info{
+    margin-top:30px;
+    margin-left: 15px;
+    
+}
+.autocomplete {
+    position: relative;
+  }
+  
+  .autocomplete ul {
+    position: absolute;
+    top: 100%; /* Place the dropdown right below the input */
+    left: 0;
+    width: 100%;
+    max-height: 200px; /* Limit the dropdown height */
+    overflow-y: auto; /* Enable scrolling if too many items */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1000; /* Ensure the dropdown is above other elements */
+  }
+  
+  .autocomplete li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .autocomplete li:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+  }
+  .d_6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Add space between the input fields */
+    align-items: center;
+   
+  }
+  .d6_inputs, .date_of_entry {
+    flex:1;
+  }
+
+  .d_7{
+    display: flex;
+    flex-direction: column;
+  }
+
+.da_8{
+    display: flex;
+    flex-direction: column;
+}
+.permanent_Address{
+    display: flex;
+    
+}
+.permanent_Address input{
+    margin-right:10px;
+    margin-top:-5px;
+}
+.form1_pagenav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

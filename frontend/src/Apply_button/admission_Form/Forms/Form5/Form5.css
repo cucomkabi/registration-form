@@ -1,0 +1,94 @@
+.form6_inputs{
+    width:70%;
+    margin:0 auto;
+    padding: 0 5px;        /* Add padding for responsiveness */
+
+}  
+.students_agreement_navhr{
+    margin-top: -.1px;
+}
+.students_agreement_nav{
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+.students_agreement_query{
+    display: flex;
+    flex-direction: column;
+}
+.query_flexform5{
+    display: flex;
+    justify-content: space-around;
+}
+.query_flexform5>div>input{
+    margin-right:5px;
+}
+.agreement_details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.agreement_details_name,
+.agreement_details_contact {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 45%; 
+    min-width: 300px; 
+     
+}
+
+.agreement_details_name > span {
+    margin: 18px;
+}
+
+.agreement_details > div > label {
+    margin-left: 20px;
+}
+
+.agreement_details > div > input {
+    padding: 10px;
+    width: 100%; /* Ensures input stretches to full width of its container */
+}
+.agree_toggle{
+    margin-right: 10px;
+    margin-left: -3px;
+}
+
+.select_agreement{
+    margin-left: 18px;
+}
+
+.signature{
+    display: flex;
+    margin-top: 50px;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sig_pad{
+height:150px;
+width:300px;
+position:relative;
+}
+.save_clear{
+    display: flex;
+    gap:10px;
+}
+.canvas_btn{
+    border-radius: 5px;
+}
+
+.agreement_footerhrtag{
+margin-top:50px;
+margin-bottom:50px;
+width:100%
+}
+.page_nav{
+ display: flex;
+ justify-content: space-between;
+}
+
+
+

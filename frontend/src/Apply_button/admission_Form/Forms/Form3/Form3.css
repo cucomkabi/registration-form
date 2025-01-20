@@ -1,0 +1,59 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    text-align: center;
+    margin-top: 5px;
+}
+.guard_heading{
+    margin-top: 20px;
+}
+.guard_break{
+    margin-top: -.5px;
+}
+.emergency_contact{
+    display:flex;
+    flex-direction: column;
+}
+.contact_data2,.contact_data1{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.cd_1 span{
+    display: block;
+    margin: 10px;
+    margin-left: 20px;
+}
+.prev_btn{
+    padding:10px;
+}
+.page_navigation{
+    margin-left:40%;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.emergency_address{
+    margin-top:100px;
+    width:90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+    margin-bottom: 20px; /* Add spacing between fields */
+  }
+  
+
+
+
+
+
+
+

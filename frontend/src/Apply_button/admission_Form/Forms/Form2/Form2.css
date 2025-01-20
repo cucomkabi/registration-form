@@ -1,0 +1,158 @@
+.form2_page{
+    max-width: 85%;
+    margin:0 auto;
+}
+
+.nav_title{
+    text-align: center;
+    margin-top: 15px;
+}
+.page2_hr{
+    margin-top:30px;
+    height:3px
+}
+.School_info{
+    margin-left:20px;
+    margin-bottom:20px;
+    margin-top:30px;
+}
+.datas_hr{
+ margin-top:-1px;
+}
+.schl_name{
+    width:250px;
+}
+.d_8{
+    /* margin-top: -50px; */
+    max-width: 400px;
+    margin-left: 50px;
+}
+.d_8>input{
+    width: 80%;
+}
+.d_9{
+    display: flex;
+}
+.data_d9{
+    flex:1;
+    margin-left: 50px;
+    max-width: 400px;
+}
+.data_d9>input{
+    width:80%;
+    padding:8px;
+}
+.d_10{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+.d_10label{
+    font-size: large;
+    font-weight:500;
+}
+.details_container{
+    flex:1 1 45%;
+}
+
+  
+.full_details{
+    flex-wrap: wrap;
+    display: flex;
+}
+.queries{
+    margin-left: 50px;
+
+}
+.scholar_queries,.languagetest_queries,.CAT_queries{
+    display:flex ;
+    margin-left: 50px;
+}
+.selectquery{
+    flex:50% ;
+}
+.selectquery>input{
+    margin:10px ;
+}
+.d_12 ,.d_13,.d_15{
+    display:flex;
+}
+.query{
+    flex:1;
+    max-width: 400px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+   
+}
+.query>input{
+    padding:8px;
+   width:80%;
+    
+}
+.query>label{
+  margin-top: 20px;
+    
+}
+.d_12 ,.d_14,.d_16{
+    margin-top: -10px;
+}
+.table-container {
+    width: 100%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    margin:50px;
+  }
+
+  
+  .table-container h2 {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .institutions-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .institutions-table th,
+  .institutions-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .institutions-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .institutions-table input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background: transparent;
+  }
+  .page_navigation>button{
+    background-color: rgb(44, 44, 243);
+    
+  }
+  .cam_heading{
+  margin-left: 40%;
+    margin-top: -30px;
+  }
+  .campus_details_query{
+    margin-left: 60px;
+  }
+ .campusquery_1{
+    display:flex;
+    flex-direction: row;
+    justify-items:center;
+    align-items: center;
+ }
+ .sp_input{
+    margin-left: 5px;
+ }
+.form2_page_nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
